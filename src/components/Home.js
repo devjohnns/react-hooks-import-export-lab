@@ -1,11 +1,13 @@
+// src/components/Home.js
 import React from "react";
 
 function Home() {
   return (
-    <div id="home">
-      <h1>
-        {username} is a Web Developer from {city}
-      </h1>
+    <div>
+      <h1>Home Page</h1>
+      {/* Other content */}
     </div>
   );
 }
+
+export default Home;  // Make sure to export this component
