@@ -9,4 +9,4 @@ function Home() {
   );
 }
 
-export default Home;  // Make sure to export this component
+export default Home;
