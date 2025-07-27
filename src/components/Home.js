@@ -1,11 +1,10 @@
-// src/components/Home.js
 import React from "react";
+import { username, city } from "../data/user";
 
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      {/* Other content */}
+    <div id="home">
+      <h1>{username} is a Web Developer from {city}</h1>
     </div>
   );
 }
